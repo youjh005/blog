@@ -38,16 +38,7 @@ If you already have your own blog then I think you can clone this repository and
 
 After you will have to set up your `_config.yml`
 
-Gem Installation
-================
-
-Follow the instructions on the Jekyll [site](https://jekyllrb.com/docs/themes/). Then copy the following files from this repository:
-
- -_config.yml
- - about.md
- - admin.md
- - archive.html
- - feed.xml 
+I tried to setup gem installation, but it doesn't work well as theme has many customizations. So I wouldn't recommend to use gem.
  
 Blog tags
 =========
