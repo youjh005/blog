@@ -1,9 +1,13 @@
 Jekyll Clean Dark
 ============
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-clean-dark.svg)](https://badge.fury.io/rb/jekyll-clean-dark)
+Dark and Clean Jekyll theme which is easy to customize!
 
-This theme was created on top of Jekyll Clean theme by Scotte, you can view the original version in action [on his blog](https://scotte.github.io).
+<p align="center">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/streetturtle/jekyll-clean-dark">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/streetturtle/jekyll-clean-dark">
+ <img alt="Twitter URL" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fstreetturtle%2Fjekyll-clean-dark">
+</p>
 
 * Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
 * See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
