@@ -7,6 +7,10 @@ tags:
  - 3D Object Deep Learning
 ---
 
+This post is summary of video from [3D Deep Learning Tutorial](https://www.youtube.com/watch?v=vfL6uJYFrp4).
+
+
+
 # Broad Applications of 3D Data
 
 - Robotics
@@ -70,7 +74,29 @@ Volumetric CNN, OctNet, O-CNN, SparseConvNet, PointNet, PointNet++, RS CNN, DGCN
 
 ## Multi-View CNN
 
-You can see this paper in here ([paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf))
+You can see paper in here ([paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf))
+
+1. 주어진 3D 입력 이미지에 대해서,
+2. 가상의 multi-view camera로 rendring을 시킨 다음,
+3. 각각의 rendering된 이미지가 특징점 추출을 위해 각각의 CNN_1을 거치게 된다.
+4. 추출된 특징점들은 view pooling을 통해 합쳐지고,
+5. 최종적으로 추출된 특징점이 CNN_2를 거친 후 클래스 분류를 수행하게 된다.
+
+
+
+- Indeed gives good performance
+- Can leverage vast literature of image classification
+- Can use pertained features
+- Need projection
+- What if the input is noisy and/or incomplete?  (e.g., point cloud)
+
+
+
+## Volumetric CNN
+
+
+
+
 
 
 
