@@ -16,12 +16,16 @@ tags:
 
 
 
+
+
 # Topics
 
 1. 3D Data
 2. Classification
 3. Segmentation & Detection
 4. Reconstruction
+
+
 
 
 
@@ -38,13 +42,35 @@ tags:
 
 
 
-## Datasets for 3D Objects
+## Datasets
+
+- Datasets for 3D Objects
+  - Large-scale Synthetic Objects: ShapeNet
+- Datasets for 3D Object Parts
+  - Fine-grained Part: PartNet (ShapeNetPart2019)
+- Datasets for Indoor 3D Scenes
+  - Large-scale Synthetic Scenses: SceneNet
+  - Large-scale Scanned Real Scenes: ScanNet
+- Datasets for Outdoor 3D Scenes
+  - KITTI: LiDAR data, labeled by 3D b.boxes
+  - Semantic KITTI: LiDAR data, labeled per point
+  - Waymo Open Dataset: LiDAR data, labeled by 3D b.boxes
 
 
 
 
 
+# Classification
 
+Covered methods:
+
+Volumetric CNN, OctNet, O-CNN, SparseConvNet, PointNet, PointNet++, RS CNN, DGCNN, Point ConvNet, KPConv, Monte Carlo Point Convolution, PConv, Multi-View CNN, Spectral CNN, Synchronized Spectral CNN, Spherical CNN
+
+
+
+## Multi-View CNN
+
+[paper]: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf
 
 
 
