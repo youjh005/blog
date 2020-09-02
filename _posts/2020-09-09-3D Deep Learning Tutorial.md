@@ -13,3 +13,37 @@ tags:
 - Augmented reality
 - Autonomous driving
 - Medical image processing
+
+
+
+## Topics
+
+1. 3D Data
+2. Classification
+3. Segmentation & Detection
+4. Reconstruction
+
+
+
+## 3D Data
+
+### The Representation Challenge of 3D Deep Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
