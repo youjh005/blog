@@ -94,6 +94,57 @@ You can see paper in here ([paper](https://www.cv-foundation.org/openaccess/cont
 
 ## Volumetric CNN
 
+Can we use CNNs w/o 2D-3D projection?
+→ Straight-forward idea: **3D native convolution**
+
+
+
+1. **Voxelization**: Represent the occupancy of regular 3D grids
+2. 3D CNN on Volumetric Data
+   - 3D convolutions uses 4D kernels
+3. How can resolve **Complexity Issue**?
+
+ 
+
+Idea1: Learn to project ([paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Qi_Volumetric_and_Multi-View_CVPR_2016_paper.pdf), Volumetric and Multi-View CNN)
+
+Idea2: Store only the occupoied grids ([paper](https://dl.acm.org/doi/abs/10.1145/3072959.3073608), O-CNN)
+
+- store the sparse surface signals
+- constrain the computation near the surface
+
+
+
+Octree의 아이디어에 영감을 받음
+
+※ Octreee: Recursively partition the space
+
+Each internal node has exactly eight childeren neighborhood searching: Hash table
+
+
+
+- SparseConvNet
+  - [Code](https://github.com/facebookresearch/SparseConvNet) & [Paper](https://arxiv.org/abs/1706.01307)(Submanifold Sparse Convolutional Networks)
+  - Uses ResNet architecture
+  - State-of-the-art for 3D analysis
+  - Takses time to train
+
+
+
+## Point Networks
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
